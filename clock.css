@@ -1,0 +1,56 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body{
+    background-color: orange;
+}
+
+.header{
+    color: white;
+    font-weight: lighter;
+    text-align: center;
+    font-size: 4rem;
+    padding-top: 3%;
+}
+
+.clock{
+    width: 200px;
+    height: 100px;
+    margin: auto;
+}
+
+.minutes{
+    font-size: 4rem;
+    color: white;
+    font-weight: lighter;
+    text-align: center;
+}
+
+.seconds{
+    font-size: 4rem;
+    color: white;
+    font-weight: lighter;
+    text-align: center;
+}
+
+.buttons{
+    width: 100%;
+    height: 100px;
+    margin: auto;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.btn{
+    margin: 7% 3% 3% 3%;
+    padding: 2% 4%;
+    background-color: transparent;
+    border: 2px white solid;
+    color: white;
+    font-size: 2rem;
+    cursor: pointer;
+}
